@@ -1,0 +1,99 @@
+/* colors */
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.bg-grey{
+    background-color: #f6f8f9;
+}
+
+.btn-blue{
+    background-color: #47adf1;
+}
+
+.btn-purple{
+    background-color: #9c72e4;
+}
+
+.btn-darkGreen{
+    background-color: #64c0a9;
+}
+
+.btn-orange{
+    background-color: #f29e33;
+}
+
+.btn-magenta{
+    background-color: #d863a1;
+}
+
+.btn-lightGreen{
+    background-color: #b0c926;
+}
+.btn-white{
+    background-color: white;
+    border: 2px solid #c5cbd0;
+    
+}
+.text-white{
+    color: #ffffff;
+}
+.text-grey{
+    color: #c5cbd0;
+}
+
+/* items */
+
+
+
+header{
+    height: 60px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    
+}
+
+#logo{
+    background-size: cover;
+    height:fit-content;
+}
+
+.header-title{
+    display: inline-block;
+    line-height: 100%;
+}
+
+button {
+    
+        
+        border: none;
+        color: white;
+        padding: 3px 4px; 
+        text-align: center;
+        line-height: 100%;
+        
+        font-size: 16px;
+      
+}
+
+.box{
+
+    background-color: green;
+    margin: 5vh 10vw 0;
+    padding-left: 5vw;
+    padding-top: 10px;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 0;
+}
+.subtitles > h3{
+    margin:0;
+}
+.paragraphing{
+    PADDING-bottom: 8vh;
+}
