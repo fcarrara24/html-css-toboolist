@@ -7,22 +7,41 @@
     <title>Toboolist</title>
 </head>
 <body>
-    <header>
-        <img src="img/Logo.png" alt="logo" #id="logo">
+    <header class="bg-white">
+        <img src="img/Logo.png" alt="logo" id="logo">
         <section class="header-title"><h1>Toboolist</h1></section>
     </header>
     <main class="bg-grey">
-        <section class="box">
-            <nav>
-                <button class="btn-blue">Add Task</button>
-                <button class="btn-white"><span class="text-grey">Add Section</span></button>
-                <hr>
+        <section class="box bg-white">
+            <nav class="padding-left">
+                <button class="nav-btn btn-blue">Add Task</button>
+                <button class="nav-btn btn-white"><span class="text-grey">Add Section</span></button>
+                
             </nav>
-            <div class="paragraphing">
-                <span class="subtitles"><h3>&#9662;New Task</h3></span>
+            
+            <div class="paragraphing padding-left">
+                <h3 class="subtitles">&#9662;New Task</h3>
                 <ul>
-                    <li><span><span>&#x2714;</span> Quaterly Newsletter</span><button>editorial</button></li>
-                    <li><span><span>&#x2716;</span> Quaterly Newsletter</span><button>editorial</button></li>
+                    <li><span><span class="true checkmark">&#x2714;</span> Quaterly Newsletter &nbsp;</span><button class="list-btn btn-blue">Editorial</button></li>
+                </ul>
+            </div>
+            <div class="paragraphing padding-left">
+                <h3 class="subtitles">&#9662;Today</h3>
+                <ul>
+                    <li><span><span class="true checkmark">&#x2714;</span> Recruiting blog post &nbsp;</span><button class="list-btn btn-blue">Editorial</button></li>
+                    <li><span><span class="true checkmark">&#x2714;</span> Mobile app launch &nbsp;</span><button class="list-btn btn-purple">Q1 Goals</button></li>
+                    <li><span><span class="false checkmark">&#x2716;</span> Interview John H. &nbsp;</span><button class="list-btn btn-darkGreen">Recruiting</button></li>
+                    <li><span><span class="true checkmark">&#x2714;</span> Summit update to mobile storefronts &nbsp;</span><button class="list-btn btn-orange">Mobile</button></li>
+
+                </ul>
+            </div>
+            <div class="paragraphing padding-left">
+                <h3 class="subtitles">&#9662;Upcoming</h3>
+                <ul>
+                    <li><span><span class="false checkmark">&#x2716;</span> Schedule Meeting with Alex &nbsp;</span></li>
+                    <li><span><span class="true checkmark">&#x2714;</span> Homepage refresh  &nbsp;</span><button class="list-btn btn-magenta">Website</button></li>
+                    <li><span><span class="true checkmark">&#x2714;</span> Onboard new Sales team members &nbsp;</span><button class="list-btn btn-lightGreen">Sales</button></li>
+                    <li><span><span class="true checkmark">&#x2714;</span> Review editorial calendar &nbsp;</span><button class="list-btn btn-blue">Editorial</button></li>
                 </ul>
             </div>
         </section>

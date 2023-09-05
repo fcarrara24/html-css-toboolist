@@ -33,7 +33,7 @@
 }
 .btn-white{
     background-color: white;
-    border: 2px solid #c5cbd0;
+    border: 1px solid #c5cbd0;
     
 }
 .text-white{
@@ -45,11 +45,14 @@
 
 /* items */
 
-
+*{
+    margin:0;
+    padding:0;
+}
 
 header{
     height: 60px;
-    background-color: red;
+    font-size: 2em;
     display: flex;
     align-items: center;
     
@@ -63,37 +66,85 @@ header{
 .header-title{
     display: inline-block;
     line-height: 100%;
+
 }
+
+main{
+    padding:15vh;
+}
+nav{
+    border-bottom: 2px solid #f6f8f9;
+    padding-bottom: 4vh;
+    
+}
+
 
 button {
     
         
         border: none;
         color: white;
-        padding: 3px 4px; 
+        padding: 3px 9px; 
         text-align: center;
         line-height: 100%;
-        
         font-size: 16px;
       
 }
 
-.box{
+.nav-btn{
+    height: 25px;
+    border-radius: 5px;
+}
 
-    background-color: green;
-    margin: 5vh 10vw 0;
-    padding-left: 5vw;
-    padding-top: 10px;
+.list-btn{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.box{
+    border-radius: 15px;
+    
+    margin: 0 10vw;
+    
+    padding-top: 10vh;
     
 }
 
 ul{
+    padding:5px;
     list-style-type: none;
     margin-top: 0;
 }
-.subtitles > h3{
+li{
+    
+    margin-bottom: 2vh;
+}
+h3{
+    font-size: 1.4em;
+    text-decoration: solid;
+    font-weight: bolder;
     margin:0;
 }
 .paragraphing{
-    PADDING-bottom: 8vh;
+    padding-top: 5vh;
+   
+}
+.false{
+    border-color: red;
+    color:red
+}
+.true{
+    border-color: green;
+    color: green;
+}
+.checkmark{
+    height: 1em;
+    width: 1em;
+    border: 2px solid ;
+    border-radius: 50%;
+}
+
+
+.padding-left{
+    padding-left: 5vw;
 }
