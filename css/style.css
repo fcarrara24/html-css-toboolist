@@ -34,7 +34,7 @@
 .btn-white{
     background-color: white;
     border: 1px solid #c5cbd0;
-    
+
 }
 .text-white{
     color: #ffffff;
@@ -43,108 +43,124 @@
     color: #c5cbd0;
 }
 
+
+
 /* items */
 
-*{
-    margin:0;
-    padding:0;
-}
-
-header{
-    height: 60px;
-    font-size: 2em;
-    display: flex;
-    align-items: center;
+/* generals */
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        
     
-}
+    .paragraphing{
+        padding-top: 15px;
 
-#logo{
-    background-size: cover;
-    height:fit-content;
-}
+    }
+   
+    .padding-left{
+        padding-left: 5vw;
+    }
+    }
+/* end generals */
+    /* header part */
+    header{
+        padding-left: 10px;
+        font-size: 2em;
+        display: flex;
+        align-items: center;
 
-.header-title{
-    display: inline-block;
-    line-height: 100%;
+    }
 
-}
+    #logo{
+        background-size: cover;
+        height:fit-content;
+    }
 
-main{
-    padding:15vh;
+    .header-title{
+        display: inline-block;
+        line-height: 100%;
+
+    }
+
+    /* main part */
+    main{
+        
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+    }
+    /* hwere content is shown */
+.box{
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 10px;
 }
 nav{
     border-bottom: 2px solid #f6f8f9;
-    padding-bottom: 4vh;
-    
+    padding-bottom: 10px;
+
 }
 
-
-button {
-    
-        
-        border: none;
-        color: white;
-        padding: 3px 9px; 
-        text-align: center;
-        line-height: 100%;
-        font-size: 16px;
-      
-}
-
-.nav-btn{
-    height: 25px;
-    border-radius: 5px;
-}
-
-.list-btn{
-    height: 30px;
-    border-radius: 10px;
-}
-
-.box{
-    border-radius: 15px;
-    
-    margin: 0 10vw;
-    
-    padding-top: 10vh;
-    
-}
-
-ul{
-    padding:5px;
-    list-style-type: none;
-    margin-top: 0;
-}
-li{
-    
-    margin-bottom: 2vh;
-}
-h3{
-    font-size: 1.4em;
-    text-decoration: solid;
-    font-weight: bolder;
-    margin:0;
-}
-.paragraphing{
-    padding-top: 5vh;
-   
-}
-.false{
-    border-color: red;
-    color:red
-}
-.true{
-    border-color: green;
-    color: green;
-}
-.checkmark{
-    height: 1em;
-    width: 1em;
-    border: 2px solid ;
-    border-radius: 50%;
-}
+    /* buttons */
+    button {
 
 
-.padding-left{
-    padding-left: 5vw;
-}
+            border: none;
+            color: white;
+            padding: 3px 9px;
+            text-align: center;
+            line-height: 100%;
+            font-size: 16px;
+
+    }
+
+    .nav-btn{
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    .list-btn{
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    /* lists */
+
+    ul{
+        padding:5px;
+        list-style-type: none;
+        margin-top: 0;
+    }
+    li{
+
+        margin-bottom: 2vh;
+    }
+    h3{
+        font-size: 1.4em;
+        text-decoration: solid;
+        font-weight: bolder;
+        margin:0;
+    }
+
+    /* checkmark selector */
+    .false{
+        border-color: red;
+        color:red
+    }
+    .true{
+        border-color: green;
+        color: green;
+    }
+    .checkmark{
+        display: inline-block;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        text-align:center;
+        line-height: 25px;
+        border: 1px solid;
+    }
+
